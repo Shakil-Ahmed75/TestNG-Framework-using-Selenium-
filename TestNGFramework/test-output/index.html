@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\ShakilAhmed\AppData\Local\Temp\testng-eclipse-1761000353\testng-customsuite.xml</span>
+                    <span>C:\Users\ShakilAhmed\AppData\Local\Temp\testng-eclipse-2098454961\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -130,14 +130,15 @@
                   <a name="searchKeyWord">
                   </a> <!-- searchKeyWord -->
                   <span class="method-name">searchKeyWord</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Data Provider public java.lang.Object[][] webBase.Base.searchDataProviderMethod() returned a null value
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:148)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+                  <div class="stack-trace">org.testng.internal.reflect.MethodMatcherException: 
+[public void webBase.Base.searchKeyWord(java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: searchKeyWord([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [null,null]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:914)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -166,7 +167,7 @@ Data Provider public java.lang.Object[][] webBase.Base.searchDataProviderMethod(
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ShakilAhmed\AppData\Local\Temp\testng-eclipse-1761000353\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ShakilAhmed\AppData\Local\Temp\testng-eclipse-2098454961\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -219,12 +220,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'searchKeyWord')
 data.setCell(0, 2, 'webBase.Base')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 2343);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
