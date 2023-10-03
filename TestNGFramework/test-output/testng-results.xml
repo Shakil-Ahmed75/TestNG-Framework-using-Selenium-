@@ -1,57 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-27T00:28:57 BDT" name="Default suite" finished-at="2023-08-27T00:29:00 BDT" duration-ms="2630">
+  <suite started-at="2023-10-03T21:20:18 BDT" name="DemoTestCase" finished-at="2023-10-03T21:20:18 BDT" duration-ms="314">
     <groups>
     </groups>
-    <test started-at="2023-08-27T00:28:57 BDT" name="Default test" finished-at="2023-08-27T00:29:00 BDT" duration-ms="2630">
-      <class name="webBase.Base">
-        <test-method signature="searchKeyWord(java.lang.String)[pri:0, instance:webBase.Base@21e360a]" started-at="2023-08-27T00:28:57 BDT" name="searchKeyWord" data-provider="SearchDataProvider" finished-at="2023-08-27T00:29:00 BDT" duration-ms="2343" status="FAIL">
-          <exception class="org.testng.internal.reflect.MethodMatcherException">
-            <message>
-              <![CDATA[
-[public void webBase.Base.searchKeyWord(java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: searchKeyWord([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [null,null]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
-[public void webBase.Base.searchKeyWord(java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: searchKeyWord([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [null,null]
-at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
-at org.testng.internal.Parameters.injectParameters(Parameters.java:914)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+    <test started-at="2023-10-03T21:20:18 BDT" name="Dummy Test" finished-at="2023-10-03T21:20:18 BDT" duration-ms="95">
+      <class name="basicTestng.TestRun_01">
+        <test-method signature="testRun02()[pri:0, instance:basicTestng.TestRun_01@750e2b97]" started-at="2023-10-03T21:20:18 BDT" name="testRun02" finished-at="2023-10-03T21:20:18 BDT" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchKeyWord -->
-      </class> <!-- webBase.Base -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testRun02 -->
+      </class> <!-- basicTestng.TestRun_01 -->
+    </test> <!-- Dummy Test -->
+    <test started-at="2023-10-03T21:20:18 BDT" name="Dummy Test-02" finished-at="2023-10-03T21:20:18 BDT" duration-ms="40">
+      <class name="basicTestng.TestRun_02">
+        <test-method signature="apiTesting()[pri:0, instance:basicTestng.TestRun_02@57a78e3]" started-at="2023-10-03T21:20:18 BDT" name="apiTesting" finished-at="2023-10-03T21:20:18 BDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiTesting -->
+        <test-method signature="testrun_03()[pri:0, instance:basicTestng.TestRun_02@57a78e3]" started-at="2023-10-03T21:20:18 BDT" name="testrun_03" finished-at="2023-10-03T21:20:18 BDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testrun_03 -->
+      </class> <!-- basicTestng.TestRun_02 -->
+    </test> <!-- Dummy Test-02 -->
+  </suite> <!-- DemoTestCase -->
 </testng-results>
