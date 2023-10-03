@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-03T21:20:18 BDT" name="DemoTestCase" finished-at="2023-10-03T21:20:18 BDT" duration-ms="314">
+  <suite started-at="2023-10-03T21:45:35 BDT" name="Dummy Suite" finished-at="2023-10-03T21:45:35 BDT" duration-ms="89">
     <groups>
     </groups>
-    <test started-at="2023-10-03T21:20:18 BDT" name="Dummy Test" finished-at="2023-10-03T21:20:18 BDT" duration-ms="95">
+    <test started-at="2023-10-03T21:45:35 BDT" name="Dummy Test" finished-at="2023-10-03T21:45:35 BDT" duration-ms="89">
       <class name="basicTestng.TestRun_01">
-        <test-method signature="testRun02()[pri:0, instance:basicTestng.TestRun_01@750e2b97]" started-at="2023-10-03T21:20:18 BDT" name="testRun02" finished-at="2023-10-03T21:20:18 BDT" duration-ms="18" status="PASS">
+        <test-method signature="testRun01()[pri:0, instance:basicTestng.TestRun_01@26d9b808]" started-at="2023-10-03T21:45:35 BDT" name="testRun01" finished-at="2023-10-03T21:45:35 BDT" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRun02 -->
+        </test-method> <!-- testRun01 -->
       </class> <!-- basicTestng.TestRun_01 -->
-    </test> <!-- Dummy Test -->
-    <test started-at="2023-10-03T21:20:18 BDT" name="Dummy Test-02" finished-at="2023-10-03T21:20:18 BDT" duration-ms="40">
       <class name="basicTestng.TestRun_02">
-        <test-method signature="apiTesting()[pri:0, instance:basicTestng.TestRun_02@57a78e3]" started-at="2023-10-03T21:20:18 BDT" name="apiTesting" finished-at="2023-10-03T21:20:18 BDT" duration-ms="7" status="PASS">
+        <test-method signature="apiTesting()[pri:0, instance:basicTestng.TestRun_02@8f2ef19]" started-at="2023-10-03T21:45:35 BDT" name="apiTesting" finished-at="2023-10-03T21:45:35 BDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apiTesting -->
-        <test-method signature="testrun_03()[pri:0, instance:basicTestng.TestRun_02@57a78e3]" started-at="2023-10-03T21:20:18 BDT" name="testrun_03" finished-at="2023-10-03T21:20:18 BDT" duration-ms="7" status="PASS">
+        <test-method signature="moblielogin()[pri:0, instance:basicTestng.TestRun_02@8f2ef19]" started-at="2023-10-03T21:45:35 BDT" name="moblielogin" finished-at="2023-10-03T21:45:35 BDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moblielogin -->
+        <test-method signature="testrun_03()[pri:0, instance:basicTestng.TestRun_02@8f2ef19]" started-at="2023-10-03T21:45:35 BDT" name="testrun_03" finished-at="2023-10-03T21:45:35 BDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testrun_03 -->
+        <test-method signature="weblogin()[pri:0, instance:basicTestng.TestRun_02@8f2ef19]" started-at="2023-10-03T21:45:35 BDT" name="weblogin" finished-at="2023-10-03T21:45:35 BDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogin -->
       </class> <!-- basicTestng.TestRun_02 -->
-    </test> <!-- Dummy Test-02 -->
-  </suite> <!-- DemoTestCase -->
+    </test> <!-- Dummy Test -->
+  </suite> <!-- Dummy Suite -->
 </testng-results>
