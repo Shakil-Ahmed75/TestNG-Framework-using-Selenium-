@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webBase.Base">
+      <class name="childsWindows.MouseInteractions">
         <methods>
-          <include name="setUp"/>
-          <include name="searchKeyWord"/>
-          <include name="close"/>
+          <include name="googleChromeDriverSetUp"/>
+          <include name="closeSetup"/>
+          <include name="mouseAction"/>
         </methods>
-      </class> <!-- webBase.Base -->
+      </class> <!-- childsWindows.MouseInteractions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

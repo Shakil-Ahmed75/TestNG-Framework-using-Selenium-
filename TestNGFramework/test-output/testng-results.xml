@@ -1,35 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-03T21:45:35 BDT" name="Dummy Suite" finished-at="2023-10-03T21:45:35 BDT" duration-ms="89">
+  <suite started-at="2023-10-09T23:10:36 BDT" name="Default suite" finished-at="2023-10-09T23:10:36 BDT" duration-ms="61">
     <groups>
     </groups>
-    <test started-at="2023-10-03T21:45:35 BDT" name="Dummy Test" finished-at="2023-10-03T21:45:35 BDT" duration-ms="89">
-      <class name="basicTestng.TestRun_01">
-        <test-method signature="testRun01()[pri:0, instance:basicTestng.TestRun_01@26d9b808]" started-at="2023-10-03T21:45:35 BDT" name="testRun01" finished-at="2023-10-03T21:45:35 BDT" duration-ms="13" status="PASS">
+    <test started-at="2023-10-09T23:10:36 BDT" name="Default test" finished-at="2023-10-09T23:10:36 BDT" duration-ms="61">
+      <class name="childsWindows.MouseInteractions">
+        <test-method is-config="true" signature="googleChromeDriverSetUp()[pri:0, instance:childsWindows.MouseInteractions@196a42c3]" started-at="2023-10-09T23:10:32 BDT" name="googleChromeDriverSetUp" finished-at="2023-10-09T23:10:36 BDT" duration-ms="3701" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRun01 -->
-      </class> <!-- basicTestng.TestRun_01 -->
-      <class name="basicTestng.TestRun_02">
-        <test-method signature="apiTesting()[pri:0, instance:basicTestng.TestRun_02@8f2ef19]" started-at="2023-10-03T21:45:35 BDT" name="apiTesting" finished-at="2023-10-03T21:45:35 BDT" duration-ms="2" status="PASS">
+        </test-method> <!-- googleChromeDriverSetUp -->
+        <test-method signature="mouseAction()[pri:0, instance:childsWindows.MouseInteractions@196a42c3]" started-at="2023-10-09T23:10:36 BDT" name="mouseAction" finished-at="2023-10-09T23:10:36 BDT" duration-ms="14" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+at childsWindows.MouseInteractions.mouseAction(MouseInteractions.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- apiTesting -->
-        <test-method signature="moblielogin()[pri:0, instance:basicTestng.TestRun_02@8f2ef19]" started-at="2023-10-03T21:45:35 BDT" name="moblielogin" finished-at="2023-10-03T21:45:35 BDT" duration-ms="2" status="PASS">
+        </test-method> <!-- mouseAction -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:childsWindows.MouseInteractions@196a42c3]" started-at="2023-10-09T23:10:36 BDT" name="closeSetup" finished-at="2023-10-09T23:10:36 BDT" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- moblielogin -->
-        <test-method signature="testrun_03()[pri:0, instance:basicTestng.TestRun_02@8f2ef19]" started-at="2023-10-03T21:45:35 BDT" name="testrun_03" finished-at="2023-10-03T21:45:35 BDT" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testrun_03 -->
-        <test-method signature="weblogin()[pri:0, instance:basicTestng.TestRun_02@8f2ef19]" started-at="2023-10-03T21:45:35 BDT" name="weblogin" finished-at="2023-10-03T21:45:35 BDT" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- weblogin -->
-      </class> <!-- basicTestng.TestRun_02 -->
-    </test> <!-- Dummy Test -->
-  </suite> <!-- Dummy Suite -->
+        </test-method> <!-- closeSetup -->
+      </class> <!-- childsWindows.MouseInteractions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
